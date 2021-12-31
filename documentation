@@ -1,0 +1,23 @@
+Registration pages handles the full Registration process. there are 5 steps of Registration
+1. Name, email, password
+2. country, state
+3. phone
+4. Name of business, location of business, Business about,
+5. vendors ID
+
+
+PAGES 
+All content of the app are rendered from pages folder
+1. Auth : handles the authentication pages
+    1. Login: handles login on the app
+    2. Register: handles the Registration of the app
+    3. ItemReview: handles review of a meal clicked shows details, price, delivery time, rating of the conent
+    4. cart: handles all user selected items
+
+
+COMPONENTS
+All componets rendered on pages are stored on componets folder
+1. ResturantLIst : Displays all the eatries, foods and other stuff on the front menu pages
+2. category : category handles the categories of sever items on the front page
+3. RECommend: sub recommendation category
+4. Maps: All maps use in different pages are found in this folder, each map use in each page is named after it page.
